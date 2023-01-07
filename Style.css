@@ -1,0 +1,135 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 35vh;
+    height: 30vh;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sacola img {
+    margin-top: 8vh;
+    margin-right: 2vh;
+    width: 12vh;
+    height: 12vh;
+}
+
+.opções {
+    letter-spacing: 0.3em;
+    margin-right: 3vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opções li {
+    list-style: none;
+}
+
+.opções a {
+    text-decoration: none;
+    color: #916B56;
+}
+
+body {
+    background-color: #FFE3D5;
+}
+
+hr {
+    margin-top: 2vh;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, #916B56, #916B56, #916B56);
+}
+
+.estilo hr {
+    border: 0;
+    height: 3px;
+    margin-top: 2vh;
+    background-image: linear-gradient(to right, transparent, transparent, #916B56);
+}
+
+.novidades {
+    color: #916B56;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+.Novidade {
+    padding-top: 8vh;
+}
+
+.roda_pe hr {
+    background-image: linear-gradient(to right, #916B56, #916B56, #916B56);
+}
+
+footer {
+    height: 20vw;
+}
+
+h2 {
+    color: #916B56;
+    padding-top: 2vh;
+}
+
+/* carrosel  */
+#items-wrapper {
+    width: 98vw;
+    cursor: pointer;
+
+
+}
+
+#items-wrapper.animar {
+    animation: spin 3s linear infinite;
+}
+
+#items {
+    display: flex;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #FFE3D5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #916B56;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-corner {
+    width: 6px;
+}
+@keyframes Novidade {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.items {
+    flex: none;
+    width: 80vh;
+}
+
+.items img {
+    object-fit: cover;
+    width: 70vh;
+    box-shadow: 2px 4px 3px black;
+
+}
+
+@media screen {}

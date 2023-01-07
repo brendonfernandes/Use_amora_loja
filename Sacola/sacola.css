@@ -1,0 +1,78 @@
+*{
+    border: 0;
+    margin: 0;
+}
+main{
+    height: 50vh;
+}
+img{
+    width: 35vh;
+    height: 30vh;
+}
+
+.opções{
+    letter-spacing: 0.3em;
+    margin-right: 3vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.opções li{
+    list-style: none;
+}
+.opções a{
+    text-decoration: none;
+    color:#916B56;
+}
+body{
+    background-color: #FFE3D5;
+}
+hr {
+    margin-top: 2vh;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, #916B56, #916B56, #916B56);
+}
+.estilo hr{
+    border: 0;
+    height: 3px;
+    margin-top: 2vh;
+    background-image: linear-gradient(to right, transparent, transparent, #916B56);
+}
+.Finalizar{
+
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Final{
+    color:  #FFE3D5;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.Confirmar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #916B56;
+    width: 20vh;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.roda_pe hr{
+    background-image: linear-gradient(to right, #916B56, #916B56, #916B56);
+}
+footer{
+    height: 20vw;
+}
+h2{
+    color: #916B56;
+    padding-top: 2vh;
+}
+p{
+    color: #916B56;
+}
