@@ -56,58 +56,40 @@ hr {
     margin-top: 2vh;
     background-image: linear-gradient(to right, transparent, transparent, #916B56);
 }
-
-.novidades {
-    color: #916B56;
+#calcas{
+    /* width: 98vw; */
     display: flex;
+    padding-left: 25vh;
     justify-content: center;
-    padding-top: 15vh;
+    margin-top: 15vh;
 }
-
-.Novidade {
-    padding-top: 8vh;
+#Produtos{
+    align-items: center;
 }
-
-/* carrosel  */
-#items-wrapper {
-    width: 98vw;
-    cursor: pointer;
-}
-
-#items-wrapper.animar {
-    animation: spin 3s linear infinite;
-}
-
-#items {
-    display: flex;
-    overflow-x:auto;
-    padding-bottom: 5vh;
-    
-}
-/* ::-webkit-{
-    width: 6px;
-    background: #ff7631;
-} */
-::-webkit-scrollbar {
-    width: 8px;
-    background: #FFE3D5;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #916B56;
-    border-radius: 10px;
-}
-.items {
-    flex: none;
-    width: 80vh;
-}
-
-.items img {
+.produto img{
     object-fit: cover;
+    height: 100%;  
     width: 70vh;
-    box-shadow: 2px 4px 3px black;
-    
+    margin-bottom: 30vh;
 }
+.produto{
+    box-shadow: 2px 4px 3px #916B56; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto p{
+    margin-top: 25vh;
+}
+p{
+    color: #916B56;
+}
+
+
+
+
+
+
 .roda_pe{
     display: flex;
     justify-content: space-between;
@@ -144,4 +126,3 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
-@media screen {}

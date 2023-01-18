@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    display: grid;
+    place-items: center;
+    font-family: 'Saira';
+    font-size: medium;
+    padding-top: 2vh;
+}
+#Cadastro{
+    padding-top: 10vh;
+}
+label{
+    display: flex;
+    color:#916B56;
+}
+.cadastro input{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: 'Saira';
+    src: url(../fonte/Saira.ttf)
+}
